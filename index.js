@@ -18,7 +18,11 @@ export function isIphoneX() {
       dimen.height === 852 ||
       dimen.width === 852 || // 14 Pro
       dimen.height === 932 ||
-      dimen.width === 932) // 14 Pro Max
+      dimen.width === 932 || // 14 Pro Max
+      dimen.height === 874 ||
+      dimen.width === 874 ||
+      dimen.height === 956 ||
+      dimen.width === 956) 
   );
 }
 
@@ -31,7 +35,12 @@ export function hasIsland() {
     (dimen.height === 852 ||
       dimen.width === 852 || // 14 Pro
       dimen.height === 932 ||
-      dimen.width === 932) // 14 Pro Max
+      dimen.width === 932 ||
+      dimen.height === 874 ||
+      dimen.width === 874 ||
+      dimen.height === 956 ||
+      dimen.width === 956
+    ) 
   );
 }
 
